@@ -8,27 +8,27 @@ export default function About() {
     <div className="relative min-h-screen bg-white text-black">
 
       {/* About Section */}
-      <section className="container mx-auto px-6 pt-32 pb-24 grid md:grid-cols-2 gap-16 items-center">
+      <section className="container mx-auto px-6 py-24 grid md:grid-cols-2 gap-16 place-items-center">
         {/* Text */}
-        <div className="space-y-6">
+        <div className="space-y-6 text-center md:text-left">
           <h2 className="text-5xl md:text-6xl font-bold tracking-tight">
             Our Story
           </h2>
           <p className="text-gray-600 text-lg leading-relaxed">
-            Founded with a passion for performance and simplicity, RideZone was built to empower every rider — from city commuters to trail explorers. 
-            Our bicycles are designed with precision engineering and timeless aesthetics, delivering both style and speed.
+            Founded with a passion for performance and simplicity, RideZone empowers every rider — from city commuters to trail explorers. 
+            Our bicycles are precision-engineered for style, speed, and reliability.
           </p>
           <p className="text-gray-600 text-lg leading-relaxed">
-            Every frame we create is a commitment to quality. We believe in the craft, in the feel of the ride, and in creating gear that pushes boundaries.
+            Every frame we create is a commitment to quality. We believe in the craft, the feel of the ride, and in gear that pushes boundaries.
           </p>
         </div>
 
         {/* Image */}
-        <div className="flex justify-center">
+        <div className="flex justify-center md:justify-end w-full">
           <img
             src={WorkshopImage}
             alt="Bicycle Workshop"
-            className="rounded-2xl shadow-md w-full max-w-md object-cover"
+            className="rounded-2xl shadow-lg w-full max-w-md object-cover"
           />
         </div>
       </section>
