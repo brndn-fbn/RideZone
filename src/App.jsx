@@ -15,7 +15,7 @@ function Layout() {
   return (
     <div className="flex flex-col min-h-screen bg-white text-black">
       <Navbar />
-      <main className="pt-24" style={{ justifyItems: "center" }}>
+      <main className="w-screen pt-24 flex flex-col items-center">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />
@@ -25,6 +25,7 @@ function Layout() {
           <Route path="checkout" element={<Checkout />} />
         </Routes>
       </main>
+
       <Footer />
     </div>
   );
