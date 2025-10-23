@@ -8,7 +8,7 @@ import Gallery1 from "../assets/images/gallery1.jpg";
 import Gallery2 from "../assets/images/gallery2.jpg";
 import Gallery3 from "../assets/images/gallery3.jpg";
 
-export default function Home() { 
+export default function Home() {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
@@ -34,11 +34,13 @@ export default function Home() {
                         Designed for riders who value speed, simplicity, and style.
                     </p>
                     <a
-                        href="#bikes"
-                        className="inline-block border border-black px-8 py-3 rounded-full font-semibold tracking-wide hover:bg-black hover:text-white transition-all"
+                        href="#"
+                        className="inline-block px-8 py-3 rounded-full font-semibold tracking-wide bg-transparent text-gray-800 border-2 border-black hover:bg-black hover:text-white focus:outline-none focus:ring-2 focus:ring-black transition-all duration-300"
                     >
                         Explore Bikes
                     </a>
+
+
                 </div>
             </section>
 

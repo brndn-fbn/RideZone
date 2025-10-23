@@ -35,21 +35,21 @@ export default function Navbar() {
 
         {/* Burger Button */}
         <button
-          className="md:hidden flex flex-col space-y-1"
+          className="md:hidden  flex flex-col space-y-1"
           onClick={() => setMenuOpen(!menuOpen)}
         >
           <span
-            className={`block w-6 h-0.5 transition-transform ${
+            className={`block bg-gray-800 w-6 h-0.5 transition-transform ${
               menuOpen ? "rotate-45 translate-y-1.5" : ""
             }`}
           ></span>
           <span
-            className={`block w-6 h-0.5 transition-opacity ${
+            className={`block bg-gray-800 w-6 h-0.5 transition-opacity ${
               menuOpen ? "opacity-0" : ""
             }`}
           ></span>
           <span
-            className={`block w-6 h-0.5 transition-transform ${
+            className={`block bg-gray-800 w-6 h-0.5 transition-transform ${
               menuOpen ? "-rotate-45 -translate-y-1.5" : ""
             }`}
           ></span>
