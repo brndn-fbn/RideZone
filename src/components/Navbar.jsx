@@ -39,17 +39,17 @@ export default function Navbar() {
           onClick={() => setMenuOpen(!menuOpen)}
         >
           <span
-            className={`block w-6 h-0.5 bg-black transition-transform ${
+            className={`block w-6 h-0.5 transition-transform ${
               menuOpen ? "rotate-45 translate-y-1.5" : ""
             }`}
           ></span>
           <span
-            className={`block w-6 h-0.5 bg-black transition-opacity ${
+            className={`block w-6 h-0.5 transition-opacity ${
               menuOpen ? "opacity-0" : ""
             }`}
           ></span>
           <span
-            className={`block w-6 h-0.5 bg-black transition-transform ${
+            className={`block w-6 h-0.5 transition-transform ${
               menuOpen ? "-rotate-45 -translate-y-1.5" : ""
             }`}
           ></span>

@@ -8,9 +8,7 @@ import Gallery1 from "../assets/images/gallery1.jpg";
 import Gallery2 from "../assets/images/gallery2.jpg";
 import Gallery3 from "../assets/images/gallery3.jpg";
 
-import About from "./About";
-
-export default function Home() {
+export default function Home() { 
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
