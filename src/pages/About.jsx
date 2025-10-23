@@ -5,7 +5,7 @@ export default function About() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className="relative min-h-screen bg-white text-black">
+    <div className="relative pt-5 min-w-s min-h-screen bg-white text-black">
 
       {/* About Section */}
       <section className="container mx-auto px-6 py-24 grid md:grid-cols-2 gap-16 place-items-center">

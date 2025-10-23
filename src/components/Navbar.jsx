@@ -10,7 +10,7 @@ export default function Navbar() {
         {/* Brand */}
         <Link
           to="/"
-          className="text-5xl font-bold tracking-tight uppercase"
+          className="text-3xl font-bold tracking-tight uppercase"
           onClick={() => setMenuOpen(false)}
         >
           Ride<span className="text-gray-500">Zone</span>

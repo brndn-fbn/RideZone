@@ -13,9 +13,9 @@ function Layout() {
   const location = useLocation();
 
   return (
-    <div className="flex flex-col min-h-screen bg-white text-black">
+    <div className="flex flex-col w-screen h-screen min-h-screen bg-white text-black">
       <Navbar />
-      <main className="w-screen pt-24 flex flex-col items-center">
+      <main className="w-full flex flex-col items-center">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />

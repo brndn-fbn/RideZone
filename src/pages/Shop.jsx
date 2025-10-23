@@ -59,7 +59,7 @@ export default function Shop() {
   };
 
   return (
-    <div className="min-h-screen bg-white text-black flex flex-col md:flex-row pt-100 pb-10">
+    <div className="min-h-screen bg-white text-black flex flex-col md:flex-row pb-10">
       {/* SHOP SECTION */}
       <section className="flex-1 pt-32 md:pt-20 px-6">
         <div className="text-center mb-16">

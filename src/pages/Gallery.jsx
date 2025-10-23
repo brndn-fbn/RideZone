@@ -18,7 +18,7 @@ export default function Gallery() {
                 }}
             >
                 <div className="absolute inset-0 bg-black/30"></div>
-                <h1 className="relative z-10 text-white text-5xl md:text-6xl font-bold tracking-tight">
+                <h1 className="relative p-10 z-10 text-white text-5xl md:text-6xl font-bold tracking-tight">
                     Precision in Every Frame
                 </h1>
             </section>
@@ -33,7 +33,7 @@ export default function Gallery() {
                 }}
             >
                 <div className="absolute inset-0 bg-black/30"></div>
-                <h1 className="relative z-10 text-white text-5xl md:text-6xl font-bold tracking-tight">
+                <h1 className="relative p-10 z-10 text-white text-5xl md:text-6xl font-bold tracking-tight">
                     Comfort Meets Performance
                 </h1>
             </section>
@@ -49,7 +49,7 @@ export default function Gallery() {
                 }}
             >
                 <div className="absolute inset-0 bg-black/30"></div>
-                <h1 className="relative z-10 text-white text-5xl md:text-6xl font-bold tracking-tight">
+                <h1 className="relative p-10 z-10 text-white text-5xl md:text-6xl font-bold tracking-tight">
                     Designed for the Ride
                 </h1>
             </section>
