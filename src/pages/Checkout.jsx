@@ -50,7 +50,7 @@ export default function Checkout() {
                     </div>
                     <button
                         onClick={handleConfirmPurchase}
-                        className="w-full py-4 bg-black text-black rounded-md hover:bg-gray-800 transition"
+                        className="w-full py-4 bg-black text-white rounded-md hover:bg-gray-800 transition"
                     >
                         Confirm Purchase
                     </button>
