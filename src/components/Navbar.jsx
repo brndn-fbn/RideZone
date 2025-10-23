@@ -58,12 +58,12 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <nav className="md:hidden bg-white border-t border-gray-200 py-4 space-y-4 text-center font-medium">
+        <nav className="md:hidden bg-white border-t border-gray-200 space-y-2 text-center font-medium ">
           {["Home", "About", "Shop", "Gallery", "Contact"].map((item) => (
             <Link
               key={item}
               to={`${item === "Home" ? "" : item.toLowerCase()}`}
-              className="block hover:text-gray-500 transition-colors"
+              className="block transition-colors hover:bg-gray-100 py-2"
               onClick={() => setMenuOpen(false)}
             >
               {item}

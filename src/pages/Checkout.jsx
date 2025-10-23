@@ -65,7 +65,7 @@ export default function Checkout() {
                         <p>Thank you for your order. Your purchase was successful.</p>
                         <button
                             onClick={handleFinish}
-                            className="px-6 py-3 bg-black text-black rounded-md hover:bg-gray-800 transition"
+                            className="px-6 py-3 bg-black text-white rounded-md hover:bg-gray-800 transition"
                         >
                             Finish
                         </button>
